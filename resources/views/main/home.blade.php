@@ -3,4 +3,5 @@
     HOME
 @endsection
 @include('partial.navbar')
+@include('partial.navbar-bottom')
 @include('partial.jumbo')

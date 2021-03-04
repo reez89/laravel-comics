@@ -10,7 +10,7 @@
 <body>
     <!-- Nav tabs -->
     @yield('content-navbar')
-    
+    @yield('content-navbar-bottom')
     <!-- Jumbo Content -->
     @yield('content-jumbo')
 </body>

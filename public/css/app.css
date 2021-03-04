@@ -10946,23 +10946,53 @@ a.text-dark:focus {
 
 .nav {
   justify-content: flex-end;
+  background: #0182F9;
+}
+
+.nav li a {
+  color: white;
+}
+
+.nav-bottom {
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: none;
+}
+
+.nav-bottom a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav-bottom li a {
+  color: black;
+  text-transform: uppercase;
 }
 
 .jumbotron {
   position: relative;
   padding: 0;
   background-image: url(/images/wonderWomanJumbo.jpg?397163ac7a3c309de3f04fcd602df6a5);
-  background-position: 50% 20%;
+  background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
   border-radius: 0;
 }
 
+.jumbotron img {
+  position: absolute;
+  left: 250px;
+  bottom: 20px;
+  height: 150px;
+}
+
 .blue-color {
   position: absolute;
   bottom: 0;
-  background: #00acdb;
+  background: #0182F9;
   height: 50px;
   width: 100%;
 }
