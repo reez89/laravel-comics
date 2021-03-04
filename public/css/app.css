@@ -10944,3 +10944,26 @@ a.text-dark:focus {
   }
 }
 
+.nav {
+  justify-content: flex-end;
+}
+
+.jumbotron {
+  position: relative;
+  padding: 0;
+  background-image: url(/images/wonderWomanJumbo.jpg?397163ac7a3c309de3f04fcd602df6a5);
+  background-position: 50% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  border-radius: 0;
+}
+
+.blue-color {
+  position: absolute;
+  bottom: 0;
+  background: #00acdb;
+  height: 50px;
+  width: 100%;
+}
+

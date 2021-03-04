@@ -1,0 +1,18 @@
+.jumbotron{
+    position: relative;
+    padding:0;
+    background-image: url('img/wonderWomanJumbo.jpg');
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    border-radius: 0;
+
+}
+.blue-color{
+    position: absolute;
+    bottom: 0;
+    background: hsl(193, 100%, 43%);
+    height:50px;
+    width: 100%;
+}
